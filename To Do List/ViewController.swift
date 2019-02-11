@@ -13,8 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     @IBOutlet weak var editBarButton: UIBarButtonItem!
-    
-    
     @IBOutlet weak var addBarButton: UIBarButtonItem!
     var defaultsData = UserDefaults.standard
     var toDoArray = [String]()
