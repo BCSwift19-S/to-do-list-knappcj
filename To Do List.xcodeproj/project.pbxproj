@@ -12,6 +12,7 @@
 		F33C7E88220DFB1300A1A9F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F33C7E86220DFB1300A1A9F5 /* Main.storyboard */; };
 		F33C7E8A220DFB1700A1A9F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F33C7E89220DFB1700A1A9F5 /* Assets.xcassets */; };
 		F33C7E8D220DFB1700A1A9F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F33C7E8B220DFB1700A1A9F5 /* LaunchScreen.storyboard */; };
+		F33C7E95220E211600A1A9F5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33C7E94220E211600A1A9F5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F33C7E89220DFB1700A1A9F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F33C7E8C220DFB1700A1A9F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F33C7E8E220DFB1700A1A9F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F33C7E94220E211600A1A9F5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				F33C7E82220DFB1300A1A9F5 /* AppDelegate.swift */,
 				F33C7E84220DFB1300A1A9F5 /* ViewController.swift */,
 				F33C7E86220DFB1300A1A9F5 /* Main.storyboard */,
+				F33C7E94220E211600A1A9F5 /* DetailViewController.swift */,
 				F33C7E89220DFB1700A1A9F5 /* Assets.xcassets */,
 				F33C7E8B220DFB1700A1A9F5 /* LaunchScreen.storyboard */,
 				F33C7E8E220DFB1700A1A9F5 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F33C7E95220E211600A1A9F5 /* DetailViewController.swift in Sources */,
 				F33C7E85220DFB1300A1A9F5 /* ViewController.swift in Sources */,
 				F33C7E83220DFB1300A1A9F5 /* AppDelegate.swift in Sources */,
 			);
